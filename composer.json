@@ -1,0 +1,17 @@
+{
+  "name": "littlechou/codeigniter-tracy",
+  "description": "A Codeigniter Package to integrate Nette Tracy Debugger",
+  "license": "MIT",
+  "authors": [{
+    "name": "Yu-Hsien ,Chou",
+    "email": "slps970093@gmail.com"
+  }],
+  "autoload": {
+    "psr-4": {
+      "LittleChou\\Codeigniter\\Tracy\\": "src/"
+    }
+  },
+  "require": {
+    "tracy/tracy": "^2.5"
+  }
+}
